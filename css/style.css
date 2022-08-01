@@ -1,0 +1,109 @@
+body{
+    background-color: #e5e5e6;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+i{
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 800;
+    margin-right: 5px;
+    align-self: center;
+}
+
+/* GLOBAL RULES */
+.main{
+    margin: 20px auto;
+    padding: 10px 10px;
+    max-width: 500px;
+    background-color: white;
+}
+/* END GLOBAL RULES */
+
+/* MODE */
+.mode{
+    height: 30px;
+    width: 100%;
+}
+.mode i{
+    float: right;
+    
+}
+/* END MODE */
+
+/* HEADER */
+header{
+    margin: 15px auto;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    border: 0px;
+}
+/* END HEADER */
+
+/* FORM */
+form{
+    padding: 5px;
+    background-color: #e5e5e6;
+    align-items: center;
+}
+form label{
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 5px;
+}
+form input{
+    height: 31px;
+    width: 70%;
+    margin-right: 5px;
+    border: 0;
+}
+#add{
+    color: green;
+}
+#clear{
+    color: red;
+}
+/* END FORM */
+
+/* LISTE */
+ul{
+    list-style: none;
+    box-shadow: 3px 3px 10px 0px black;
+    margin: 15px auto;
+    background-color: aliceblue;
+    width: 85%;
+    padding: 20px;
+}
+ul li{
+    padding: 5px 10px;
+    border-bottom: 1px solid #777;
+    font-size: 18px;
+    transition: 0.5s;
+}
+ul li:hover{
+    padding-left: 20px;
+}
+ul li:hover span{
+    display: block;
+}
+ul li span{
+    float: right;
+    display: none;
+    transition: 0.5s;
+}
+ul li span i{
+    font-size: 12px;
+}
+#edit{
+    color: green;
+}
+#del{
+    color: red;
+}
+/* END LISTE */
